@@ -194,15 +194,3 @@ h2.title3{
     
 }
 /*End of buy button */
-
-@media screen and (max-width:400px) {
-    .shop-contact{
-        display: block;
-    }
-    .main h3{
-        text-align: left;
-    }
-}
-.img{
-    border: 2px black double;
-}
