@@ -113,9 +113,7 @@ h2.title3{
     font-size: 1.4em;
     border: 10px black solid;
   }
-  .product-box{
-      position: relative;
-  }
+
   .product-box:hover{
       padding: 10px;
       border: 1px solid var(--text-color);
@@ -126,12 +124,22 @@ h2.title3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   }
+  .product-box{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px black;
+    border-radius: 10px;
+    margin: 50px;
+    transition: 0.7 ease;
+    text-align: center;
+    
+  }
 /* End of women section */
 
              /* men section */
 .shop-contact-m{
     display: grid;
-    gap: 1.5rem;
+    gap: 1.5em;
     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     text-align: center;
 }
@@ -142,6 +150,16 @@ h2.title3{
     font-size:2em ;
 
 }
+.product-box-m{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px black;
+    border-radius: 10px;
+    margin: 50px;
+    transition: 0.7 ease;
+    text-align: center;
+    
+  }
 .product-box-m:hover{
     padding: 10px;
     border: 1px solid var(--text-color);
@@ -166,6 +184,16 @@ h2.title3{
     border: 10px black solid;
     font-size:2em ;
 }
+.product-box-k{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px black;
+    border-radius: 10px;
+    margin: 50px;
+    transition: 0.7 ease;
+    text-align: center;
+    
+  }
 .product-box-k:hover{
     padding: 10px;
     border: 1px solid var(--text-color);
@@ -190,7 +218,14 @@ h2.title3{
     padding-right: 30px;
     padding:0.5em 0.5em;
     margin-top: 6px;
+  
 
     
 }
 /*End of buy button */
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap ;
+}
